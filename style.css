@@ -27,7 +27,7 @@ button {
 
 .hero-header,
 .hero-text {
-    width: 50%;
+    width: 60%;
     margin: auto;
 }
 
@@ -55,12 +55,13 @@ nav ul{
     align-items: center;
     justify-content: center;
     margin-top: 60px;
-    padding: 40px;
+    padding: 30px;
+    flex-wrap: wrap;
 }
 
 .hero-content > *{
-    padding: 10px;
-    text-align: left;
+    padding: 5px;
+    
 }
 
 .hero-content > button {
@@ -73,7 +74,8 @@ img{
 }
 
 img {
-    max-width: 400px;
+    max-width: 350px;
+    padding: 20px 0;
 }
 
 button {
